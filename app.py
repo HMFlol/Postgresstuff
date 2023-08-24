@@ -28,7 +28,7 @@ else:
     print("Max retries reached. Could not connect to the database.")
 
 # Create a new table
-table_name = "rynes stuff"
+table_name = "rynes_stuff"
 create_table_query = f"""
     CREATE TABLE {table_name} (
         id SERIAL PRIMARY KEY,
